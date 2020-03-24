@@ -10,7 +10,6 @@ namespace GuessingGame
 {
     class Game
     {
-
         public string answer;
         public string guess = "";
         public int guessLimit = 3;
@@ -23,7 +22,6 @@ namespace GuessingGame
             this.answer = answer;
             handleRemainingGuesses(guess, answer, remainingGuesses, guessedWords, guessLimit);
         }
-
 
         private void handleRemainingGuesses(string guess, string rightGuess, bool remainingGuesses, List<string> guessedWords, int guessLimit)
         {
@@ -68,7 +66,6 @@ namespace GuessingGame
 
             return existingGuess;
         }
-
         private string validateGuess(List<string> alreadyGuessed, string currentGuess)
         {
             bool wasValidGuess = true;

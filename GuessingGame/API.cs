@@ -8,8 +8,6 @@ namespace GuessingGame
 {
     class API
     {
-        //public string response { get; set; }
-
         // { "word":"mountain fern","results":[{"definition":"common European mountain fern having fragrant lemon or balsam scented fronds","partOfSpeech":"noun","synonyms":["dryopteris oreopteris","oreopteris limbosperma"],"typeOf":["fern"],"memberOf":["genus oreopteris","oreopteris"] }],"pronunciation":{"all":"'ma?nt?n_f?rn"}}
         //Console.WriteLine(content);
 
